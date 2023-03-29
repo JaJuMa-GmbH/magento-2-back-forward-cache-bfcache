@@ -1,0 +1,25 @@
+{
+  "name": "jajuma/magento-2-back-forward-cache-bfcache",
+  "description": "Magento 2 Back/Forward Cache (bfcache)",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "1.0.0",
+    "homepage": "https://www.jajuma.de/en/jajuma-develop/extensions/back-forward-cache-extension-for-magento-2",
+  "authors": [
+    {
+      "name": "JaJuMa",
+      "email": "info@jajuma.de",
+      "homepage": "https://www.jajuma.de"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Jajuma\\BfCache\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
